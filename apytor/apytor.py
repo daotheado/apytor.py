@@ -15,7 +15,7 @@ if getattr(sys, 'frozen', False):
     ARIA2_PATH = os.path.join(bundle_dir, "aria2c.exe")
 else:
     # Normal Python run
-    ARIA2_PATH = r"C:\Users\Admir Dzafic\Desktop\Quick Tests\aria2-1.37.0-win-64bit-build1\aria2c.exe"
+    ARIA2_PATH = r"C:\Users\Usersname\FilepathTo\aria2-1.37.0-win-64bit-build1\aria2c.exe"
 
 DEFAULT_CONF_DIR = Path.home() / ".aria2"
 DEFAULT_CONF_FILE = DEFAULT_CONF_DIR / "aria2.conf"
@@ -193,3 +193,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
